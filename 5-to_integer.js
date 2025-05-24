@@ -1,4 +1,4 @@
-const num = Number(Process.argv[2]);
+const num = Number(process.argv[2]);
 if (isNaN(num)) {
   console.log("Not a number");
 }
